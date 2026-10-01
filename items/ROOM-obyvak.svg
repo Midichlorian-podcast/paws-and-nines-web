@@ -20,6 +20,7 @@
 <rect id="@slot obrazy" x="780" y="140" width="120" height="100" fill="#FF8C3D" opacity="0.2"/>
 <rect id="@slot police" x="985" y="180" width="240" height="290" fill="#FF8C3D" opacity="0.2"/>
 <rect id="@slot pelíšek" x="220" y="598" width="200" height="40" fill="#FF8C3D" opacity="0.2"/>
+<rect id="@slot škrabadlo" x="438" y="564" width="80" height="40" fill="#FF8C3D" opacity="0.2"/>
 <rect id="@slot hračka 1" x="490" y="600" width="200" height="40" fill="#FF8C3D" opacity="0.2"/>
 <rect id="@slot pelíšek +" x="705" y="612" width="140" height="40" fill="#FF8C3D" opacity="0.2"/>
 <rect id="@slot koberec" x="410" y="593" width="640" height="50" fill="#FF8C3D" opacity="0.2"/>

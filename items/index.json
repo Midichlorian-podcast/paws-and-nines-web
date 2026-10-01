@@ -167,7 +167,7 @@
     "dotyk"
    ],
    "ready": true,
-   "note": "díly se houpou kolem čepů ve větru; zatažená = stav; dlouhá až k liště, aby kočku za ní zakryla"
+   "note": "díly se houpou kolem čepů ve větru; zatažená = stav; dlouhá až k čáře podlahy, aby kočku za ní zakryla a vykoukla jen špička ocasu"
   },
   "P03": {
    "name": "Radiátor",
@@ -560,7 +560,7 @@
    "w": 140,
    "h": 260,
    "room": "obyvak",
-   "slot": "malý kus",
+   "slot": "škrabadlo",
    "level": "high",
    "height": 100,
    "hide": "",
@@ -582,7 +582,7 @@
     "dotyk sloupek"
    ],
    "ready": true,
-   "note": "škrábání sloupku, sed na vrchu (dospělá)"
+   "note": "škrábání sloupku, sed na vrchu (dospělá); vlastní místo mezi pelíškem a kobercem, se stolkem se už nestřídá"
   },
   "P17": {
    "name": "Polštář na zem",
@@ -1443,7 +1443,7 @@
   "P45": {
    "name": "Deka",
    "w": 300,
-   "h": 48,
+   "h": 100,
    "room": "loznice",
    "slot": "deka",
    "level": "floor",
@@ -1466,7 +1466,7 @@
     "úkryt pod dekou"
    ],
    "ready": true,
-   "note": "leží na posteli; kotě spí pod dekou (vidět jen boule)",
+   "note": "leží na posteli; kočka se schová pod deku a je vidět jen boule (stav boule)",
    "on": "P41"
   },
   "P46": {
@@ -2517,6 +2517,7 @@
     "slot obrazy",
     "slot police",
     "slot pelíšek",
+    "slot škrabadlo",
     "slot hračka 1",
     "slot pelíšek +",
     "slot koberec",
@@ -3105,7 +3106,7 @@
     "dotyk sklo"
    ],
    "ready": true,
-   "note": "vzácný kus ze dvorku; voda, kamínky a nic víc; kočka se do něj dívá a dospělá si lehne na teplé víko; stojí na malém místě obýváku místo stolku nebo škrabadla"
+   "note": "vzácný kus ze dvorku; voda, kamínky a nic víc; kočka se do něj dívá a dospělá si lehne na teplé víko; stojí na malém místě obýváku místo stolku (škrabadlo má od 30. 9. 2026 vlastní místo)"
   },
   "P91": {
    "name": "Zlatá rolnička",
