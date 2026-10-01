@@ -71,6 +71,7 @@
   "P52",
   "P53",
   "P54",
+  "P93",
   "P55",
   "P56",
   "P57",
@@ -1608,7 +1609,7 @@
   "P50": {
    "name": "Umyvadlo",
    "w": 120,
-   "h": 200,
+   "h": 300,
    "room": "koupelna",
    "slot": "umyvadlo",
    "level": "high",
@@ -1617,19 +1618,19 @@
    "fixed": false,
    "states": [
     "spadlé mýdlo",
-    "teče",
-    "zrcátko"
+    "teče"
    ],
    "front": [],
    "parts": [
     "stín",
+    "zrcadlo",
+    "polička",
     "noha",
     "mísa",
     "kohoutek",
     "mýdlo",
     "stav: spadlé mýdlo",
-    "stav: teče",
-    "stav: zrcátko"
+    "stav: teče"
    ],
    "data": [
     "pata",
@@ -1638,7 +1639,7 @@
     "čep mýdlo"
    ],
    "ready": true,
-   "note": "pití z kohoutku, sed v umyvadle (dospělá), shození mýdla (stav spadlé mýdlo)"
+   "note": "pití z kohoutku, sed v umyvadle (dospělá), shození mýdla (stav spadlé mýdlo); zrcadlo s poličkou nad ním"
   },
   "P51": {
    "name": "Pračka",
@@ -1695,7 +1696,7 @@
     "čep konec"
    ],
    "ready": true,
-   "note": "rozmotávání = nepořádek (stav rozmotaný až na zem)"
+   "note": "vedle záchodu; rozmotávání = nepořádek (stav rozmotaný až na zem)"
   },
   "P53": {
    "name": "Rohož",
@@ -1749,6 +1750,33 @@
    ],
    "ready": true,
    "note": "spánek na ručnících (dospělá), shození ručníku"
+  },
+  "P93": {
+   "name": "Záchod",
+   "w": 120,
+   "h": 260,
+   "room": "koupelna",
+   "slot": "záchod",
+   "level": "low",
+   "height": 43,
+   "hide": "",
+   "fixed": true,
+   "states": [],
+   "front": [],
+   "parts": [
+    "stín",
+    "nádržka",
+    "trubka",
+    "mísa",
+    "sedátko",
+    "víko"
+   ],
+   "data": [
+    "pata",
+    "plošina"
+   ],
+   "ready": true,
+   "note": "pevný kus koupelny, nevyrábí se; sed na zavřeném víku"
   },
   "P55": {
    "name": "Hromada krabic",
@@ -2146,6 +2174,9 @@
     "podzim",
     "listí",
     "holý",
+    "sníh na větvích",
+    "jaro",
+    "plody",
     "sníh",
     "ptáci"
    ],
@@ -2158,7 +2189,10 @@
     "stav: podzim",
     "stav: listí",
     "stav: holý",
+    "stav: sníh na větvích",
     "budka",
+    "stav: jaro",
+    "stav: plody",
     "stav: sníh",
     "stav: ptáci"
    ],
@@ -2169,7 +2203,7 @@
     "dotyk kmen"
    ],
    "ready": true,
-   "note": "broušení drápů o kmen, sed na větvi (mladá, dospělá), ptáci v budce; roční období jako stavy"
+   "note": "jabloň: broušení drápů o kmen, sed na větvi (mladá, dospělá), ptáci v budce; květ, jablka, podzim a zima jako stavy"
   },
   "P68": {
    "name": "Lavička",
@@ -2237,7 +2271,7 @@
   "P70": {
    "name": "Záhon",
    "w": 200,
-   "h": 90,
+   "h": 120,
    "room": "dvorek",
    "slot": "záhon",
    "level": "floor",
@@ -2245,7 +2279,10 @@
    "hide": "",
    "fixed": false,
    "states": [
-    "květy",
+    "jaro",
+    "léto",
+    "podzim",
+    "holý",
     "sníh",
     "rozhrabaný",
     "motýli"
@@ -2254,7 +2291,10 @@
    "parts": [
     "hlína",
     "zeleň",
-    "stav: květy",
+    "stav: jaro",
+    "stav: léto",
+    "stav: podzim",
+    "stav: holý",
     "stav: sníh",
     "stav: rozhrabaný",
     "stav: motýli"
@@ -2265,7 +2305,7 @@
     "dotyk"
    ],
    "ready": true,
-   "note": "čichání, hrabání (nepořádek), motýli; roční období jako stavy"
+   "note": "čichání, hrabání (nepořádek), motýli; tulipány, slunečnice, astry a suché stonky podle ročního období"
   },
   "P71": {
    "name": "Plot s brankou",
@@ -2312,7 +2352,10 @@
    "fixed": true,
    "states": [
     "květy",
+    "jaro",
+    "léto",
     "podzim",
+    "holý",
     "louže",
     "sníh"
    ],
@@ -2320,7 +2363,10 @@
    "parts": [
     "tráva",
     "stav: květy",
+    "stav: jaro",
+    "stav: léto",
     "stav: podzim",
+    "stav: holý",
     "stav: louže",
     "stav: sníh"
    ],
@@ -2401,18 +2447,22 @@
    "fixed": false,
    "states": [
     "květy",
+    "podzim",
     "sníh",
     "ptáci",
-    "holý"
+    "holý",
+    "sníh na větvích"
    ],
    "front": [],
    "parts": [
     "stín",
     "keř",
     "stav: květy",
+    "stav: podzim",
     "stav: sníh",
     "stav: ptáci",
-    "stav: holý"
+    "stav: holý",
+    "stav: sníh na větvích"
    ],
    "data": [
     "pata",
@@ -2421,7 +2471,7 @@
     "dotyk"
    ],
    "ready": true,
-   "note": "úkryt, číhání, ptáci; období jako stavy"
+   "note": "kvetoucí keř: úkryt, číhání, ptáci; období jako stavy"
   },
   "P76": {
    "name": "Komín",
@@ -2759,6 +2809,7 @@
     "slot vana",
     "slot umyvadlo",
     "slot pračka",
+    "slot záchod",
     "slot papír",
     "slot rohož",
     "slot police",
@@ -2841,8 +2892,12 @@
    "hide": "",
    "fixed": false,
    "states": [
+    "podzim v dálce",
+    "sníh v dálce",
+    "sníh na domech",
     "podzim",
     "holý",
+    "jaro",
     "sníh",
     "okna"
    ],
@@ -2850,11 +2905,15 @@
    "parts": [
     "obloha",
     "kopce",
+    "stav: podzim v dálce",
+    "stav: sníh v dálce",
     "kostel",
     "domy sousedů",
+    "stav: sníh na domech",
     "koruny",
     "stav: podzim",
     "stav: holý",
+    "stav: jaro",
     "živý plot",
     "stav: sníh",
     "stav: okna",
