@@ -4,6 +4,7 @@
 <g id="mísa"><ellipse cx="50" cy="40" rx="44" ry="12" fill="#CFCBD8" stroke="#2F2E3F" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="50" cy="40" rx="34" ry="7" fill="#B7CBE6" stroke="none"/><ellipse cx="40" cy="38" rx="10" ry="2.5" fill="#FFFFFF" stroke="none" opacity="0.6"/></g>
 <g id="stav: ptáci" data-state="hidden"><ellipse cx="24" cy="34" rx="8" ry="5" fill="#9FC0E6" stroke="#2F2E3F" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="18" cy="28" r="4" fill="#9FC0E6" stroke="#2F2E3F" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="76" cy="36" rx="7" ry="5" fill="#F2CF7A" stroke="#2F2E3F" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="82" cy="30" r="4" fill="#F2CF7A" stroke="#2F2E3F" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/></g>
 <g id="stav: šplouchání" data-state="hidden"><path d="M 28 30 q 4 -8 8 0 M 60 28 q 4 -8 8 0" fill="none" stroke="#9FC0E6" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+<g id="stav: sníh" data-state="hidden"><path d="M 6 40 Q 10 26 50 26 Q 90 26 94 40 Q 50 48 6 40 Z" fill="#FFFFFF" stroke="#2F2E3F" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/></g>
 <rect id="@pata" x="20" y="108" width="60" height="16" fill="#FFB13D" opacity="0.2"/>
 <rect id="@plošina" x="6" y="33" width="88" height="16" fill="#3DFF9A" opacity="0.2"/>
 <rect id="@dotyk voda" x="6" y="28" width="88" height="24" fill="#FF3D9A" opacity="0.2"/>

@@ -638,7 +638,7 @@
   "P18": {
    "name": "Linka",
    "w": 480,
-   "h": 180,
+   "h": 192,
    "room": "kuchyn",
    "slot": "linka",
    "level": "high",
@@ -646,6 +646,7 @@
    "hide": "",
    "fixed": false,
    "states": [
+    "spadlá váza",
     "pára",
     "otevřená skříňka"
    ],
@@ -656,16 +657,19 @@
     "deska",
     "dřez",
     "hrnec",
+    "váza",
+    "stav: spadlá váza",
     "stav: pára",
     "stav: otevřená skříňka"
    ],
    "data": [
     "pata",
     "plošina",
-    "dotyk hrnec"
+    "dotyk hrnec",
+    "čep váza"
    ],
    "ready": true,
-   "note": "chůze po lince, shazování, čichání k hrnci; za linkou zóna neviditelnosti"
+   "note": "chůze po lince, shazování vázy (stav spadlá váza), čichání k hrnci; za linkou zóna neviditelnosti"
   },
   "P19": {
    "name": "Miska na jídlo",
@@ -734,6 +738,7 @@
    "hide": "pod",
    "fixed": false,
    "states": [
+    "spadlé jablko",
     "ubrus",
     "talíř"
    ],
@@ -741,17 +746,20 @@
    "parts": [
     "stín",
     "nohy",
+    "stav: spadlé jablko",
     "deska",
+    "jablko",
     "stav: ubrus",
     "stav: talíř"
    ],
    "data": [
     "pata",
     "plošina",
-    "úkryt pod"
+    "úkryt pod",
+    "čep jablko"
    ],
    "ready": true,
-   "note": "krádež ze stolu (mlsná), úkryt pod ubrusem"
+   "note": "krádež ze stolu (mlsná), úkryt pod ubrusem, shození jablka (stav spadlé jablko, pod stolem)"
   },
   "P23": {
    "name": "Židle",
@@ -851,6 +859,7 @@
    "hide": "",
    "fixed": false,
    "states": [
+    "převržená bylinka",
     "okousané"
    ],
    "front": [],
@@ -859,15 +868,18 @@
     "rám",
     "parapet",
     "bylinky",
+    "bylinka",
+    "stav: převržená bylinka",
     "stav: okousané"
    ],
    "data": [
     "plošina",
     "dotyk bylinky",
-    "dotyk sklo"
+    "dotyk sklo",
+    "čep bylinka"
    ],
    "ready": true,
-   "note": "okusování bylinek; obloha přes WEATHER"
+   "note": "okusování bylinek, převržení květináčku na parapetu (stav převržená bylinka); obloha přes WEATHER"
   },
   "P27": {
    "name": "Rohožka",
@@ -1125,6 +1137,7 @@
    "hide": "pod",
    "fixed": true,
    "states": [
+    "spadlá tužka",
     "rozházené papíry",
     "hrnek"
    ],
@@ -1136,6 +1149,7 @@
     "deska",
     "papír",
     "tužka",
+    "stav: spadlá tužka",
     "stav: rozházené papíry",
     "stav: hrnek"
    ],
@@ -1143,7 +1157,8 @@
     "pata",
     "plošina",
     "úkryt pod",
-    "dotyk papír"
+    "dotyk papír",
+    "čep tužka"
    ],
    "ready": true,
    "note": "tady se hraje sudoku v domě (skupina SUD); papír je pevný díl"
@@ -1359,7 +1374,7 @@
   "P42": {
    "name": "Noční stolek",
    "w": 140,
-   "h": 150,
+   "h": 156,
    "room": "loznice",
    "slot": "noční stolek",
    "level": "low",
@@ -1367,14 +1382,16 @@
    "hide": "",
    "fixed": false,
    "states": [
-    "knížka"
+    "knížka",
+    "spadlý budík"
    ],
    "front": [],
    "parts": [
     "stín",
     "skříňka",
     "deska",
-    "stav: knížka"
+    "stav: knížka",
+    "stav: spadlý budík"
    ],
    "data": [
     "pata",
@@ -1382,12 +1399,12 @@
     "dotyk vršek"
    ],
    "ready": true,
-   "note": "mezistupeň na parapet; shození budíku"
+   "note": "mezistupeň na parapet; shození budíku (stav spadlý budík: budík leží na boku před stolkem)"
   },
   "P43": {
    "name": "Skříň",
    "w": 240,
-   "h": 300,
+   "h": 312,
    "room": "loznice",
    "slot": "skříň",
    "level": "high",
@@ -1395,23 +1412,27 @@
    "hide": "v",
    "fixed": false,
    "states": [
-    "otevřená"
+    "otevřená",
+    "vytažený svetr"
    ],
    "front": [],
    "parts": [
     "stín",
     "skříň",
     "vrch",
-    "stav: otevřená"
+    "rukáv",
+    "stav: otevřená",
+    "stav: vytažený svetr"
    ],
    "data": [
     "pata",
     "plošina",
     "úkryt v",
-    "dotyk madla"
+    "dotyk madla",
+    "čep rukáv"
    ],
    "ready": true,
-   "note": "nejvyšší místo v domě (dospělá); úkryt uvnitř, tahání za rukáv; za ní zóna neviditelnosti"
+   "note": "nejvyšší místo v domě (dospělá); úkryt uvnitř, tahání za rukáv (stav vytažený svetr); za ní zóna neviditelnosti"
   },
   "P44": {
    "name": "Okno v ložnici",
@@ -1490,10 +1511,11 @@
    ],
    "data": [
     "pata",
-    "dotyk"
+    "dotyk",
+    "čep budík"
    ],
    "ready": true,
-   "note": "stojí na nočním stolku; shození = nepořádek; zvonění lekne",
+   "note": "stojí na nočním stolku; shození = nepořádek (leží pak v kresbě stolku); zvonění lekne",
    "on": "P42"
   },
   "P47": {
@@ -1594,6 +1616,7 @@
    "hide": "",
    "fixed": false,
    "states": [
+    "spadlé mýdlo",
     "teče",
     "zrcátko"
    ],
@@ -1603,16 +1626,19 @@
     "noha",
     "mísa",
     "kohoutek",
+    "mýdlo",
+    "stav: spadlé mýdlo",
     "stav: teče",
     "stav: zrcátko"
    ],
    "data": [
     "pata",
     "plošina",
-    "dotyk kohoutek"
+    "dotyk kohoutek",
+    "čep mýdlo"
    ],
    "ready": true,
-   "note": "pití z kohoutku, sed v umyvadle (dospělá)"
+   "note": "pití z kohoutku, sed v umyvadle (dospělá), shození mýdla (stav spadlé mýdlo)"
   },
   "P51": {
    "name": "Pračka",
@@ -1646,8 +1672,8 @@
   },
   "P52": {
    "name": "Toaletní papír",
-   "w": 80,
-   "h": 110,
+   "w": 120,
+   "h": 124,
    "room": "koupelna",
    "slot": "papír",
    "level": "wall",
@@ -1661,13 +1687,15 @@
    "parts": [
     "držák",
     "role",
+    "konec",
     "stav: rozmotaný"
    ],
    "data": [
-    "dotyk role"
+    "dotyk role",
+    "čep konec"
    ],
    "ready": true,
-   "note": "rozmotávání = nepořádek"
+   "note": "rozmotávání = nepořádek (stav rozmotaný až na zem)"
   },
   "P53": {
    "name": "Rohož",
@@ -1716,7 +1744,8 @@
    ],
    "data": [
     "plošina",
-    "dotyk ručníky"
+    "dotyk ručníky",
+    "čep ručník"
    ],
    "ready": true,
    "note": "spánek na ručnících (dospělá), shození ručníku"
@@ -1791,7 +1820,7 @@
   "P57": {
    "name": "Truhla",
    "w": 220,
-   "h": 140,
+   "h": 150,
    "room": "puda",
    "slot": "truhla",
    "level": "low",
@@ -1799,26 +1828,32 @@
    "hide": "v",
    "fixed": false,
    "states": [
-    "otevřená"
+    "otevřená",
+    "spadlý klobouk"
    ],
    "front": [
-    "přední stěna"
+    "přední stěna",
+    "klobouk",
+    "spadlý klobouk"
    ],
    "parts": [
     "stín",
     "vnitřek",
     "víko",
     "stav: otevřená",
-    "před: přední stěna"
+    "před: přední stěna",
+    "před: klobouk",
+    "před: stav: spadlý klobouk"
    ],
    "data": [
     "pata",
     "plošina",
     "úkryt v",
-    "dotyk víko"
+    "dotyk víko",
+    "čep klobouk"
    ],
    "ready": true,
-   "note": "objevy pro deník, úkryt v otevřené truhle, sed na víku"
+   "note": "objevy pro deník, úkryt v otevřené truhle, sed na víku, shození klobouku (stav spadlý klobouk, před stěnou)"
   },
   "P58": {
    "name": "Kufr",
@@ -2109,6 +2144,7 @@
    "fixed": true,
    "states": [
     "podzim",
+    "listí",
     "holý",
     "sníh",
     "ptáci"
@@ -2120,6 +2156,7 @@
     "větev",
     "koruna",
     "stav: podzim",
+    "stav: listí",
     "stav: holý",
     "budka",
     "stav: sníh",
@@ -2177,7 +2214,8 @@
    "fixed": false,
    "states": [
     "ptáci",
-    "šplouchání"
+    "šplouchání",
+    "sníh"
    ],
    "front": [],
    "parts": [
@@ -2185,7 +2223,8 @@
     "noha",
     "mísa",
     "stav: ptáci",
-    "stav: šplouchání"
+    "stav: šplouchání",
+    "stav: sníh"
    ],
    "data": [
     "pata",
@@ -2230,8 +2269,8 @@
   },
   "P71": {
    "name": "Plot s brankou",
-   "w": 1000,
-   "h": 140,
+   "w": 1318,
+   "h": 170,
    "room": "dvorek",
    "slot": "plot",
    "level": "high",
@@ -2245,8 +2284,11 @@
    "front": [],
    "parts": [
     "stín",
-    "laťky",
+    "příčky",
+    "plaňky",
+    "lať",
     "branka",
+    "sloupky",
     "stav: otevřená branka",
     "stav: sníh"
    ],
@@ -2256,12 +2298,12 @@
     "dotyk branka"
    ],
    "ready": true,
-   "note": "chůze po plotě (dospělá); sousedka a kocour přicházejí brankou"
+   "note": "prkenný plot se sloupky a latí nahoře, na které se sedí a chodí (dospělá); sousedka a kocour přicházejí brankou vlevo"
   },
   "P72": {
    "name": "Tráva",
-   "w": 1100,
-   "h": 190,
+   "w": 1130,
+   "h": 237,
    "room": "dvorek",
    "slot": "tráva",
    "level": "floor",
@@ -2269,23 +2311,25 @@
    "hide": "",
    "fixed": true,
    "states": [
+    "květy",
     "podzim",
-    "sníh",
-    "louže"
+    "louže",
+    "sníh"
    ],
    "front": [],
    "parts": [
     "tráva",
+    "stav: květy",
     "stav: podzim",
-    "stav: sníh",
-    "stav: louže"
+    "stav: louže",
+    "stav: sníh"
    ],
    "data": [
     "pata",
     "plošina"
    ],
    "ready": true,
-   "note": "válení, plížení v trávě, okusování; období jako stavy"
+   "note": "celá zem dvorku od plotu po přední okraj a od kraje po dům; válení, plížení v trávě, okusování; období jako stavy"
   },
   "P73": {
    "name": "Kamenná cestička",
@@ -2298,12 +2342,14 @@
    "hide": "",
    "fixed": false,
    "states": [
-    "teplé"
+    "teplé",
+    "sníh"
    ],
    "front": [],
    "parts": [
     "kameny",
-    "stav: teplé"
+    "stav: teplé",
+    "stav: sníh"
    ],
    "data": [
     "pata",
@@ -2323,6 +2369,7 @@
    "hide": "",
    "fixed": true,
    "states": [
+    "sníh",
     "dárek",
     "peříčko",
     "šiška"
@@ -2330,6 +2377,7 @@
    "front": [],
    "parts": [
     "místo",
+    "stav: sníh",
     "stav: dárek",
     "stav: peříčko",
     "stav: šiška"
@@ -2792,12 +2840,26 @@
    "height": 0,
    "hide": "",
    "fixed": false,
-   "states": [],
+   "states": [
+    "podzim",
+    "holý",
+    "sníh",
+    "okna"
+   ],
    "front": [],
    "parts": [
     "obloha",
-    "zeď domu",
-    "země"
+    "kopce",
+    "kostel",
+    "domy sousedů",
+    "koruny",
+    "stav: podzim",
+    "stav: holý",
+    "živý plot",
+    "stav: sníh",
+    "stav: okna",
+    "země",
+    "průchod pravý"
    ],
    "data": [
     "slot strom",
@@ -2813,7 +2875,7 @@
     "slot ozdoba +"
    ],
    "ready": true,
-   "note": "dveře do obýváku v pravé zdi domu; plot, tráva a strom pevné"
+   "note": "na dvorek se chodí z obýváku průchodem v pravé zdi domu jako mezi pokoji; plot, tráva a strom pevné; za plotem sousedství"
   },
   "ROOM-strecha": {
    "name": "Střecha",
@@ -2911,12 +2973,12 @@
   },
   "P81": {
    "name": "Lampiony na plot",
-   "w": 440,
-   "h": 120,
+   "w": 834,
+   "h": 150,
    "room": "dvorek",
    "slot": "plot",
    "level": "wall",
-   "height": 120,
+   "height": 150,
    "hide": "",
    "fixed": false,
    "states": [
@@ -2924,6 +2986,7 @@
    ],
    "front": [],
    "parts": [
+    "tyče",
     "šňůra",
     "lampiony",
     "stav: světlo"
@@ -2932,7 +2995,8 @@
     "dotyk lampiony"
    ],
    "ready": true,
-   "note": "letní ozdoba z kalendáře; visí na plotě, večer svítí"
+   "note": "letní ozdoba z kalendáře; tyčky přivázané ke sloupkům plotu, lampiony nad latí, večer svítí",
+   "on": "P71"
   },
   "P82": {
    "name": "Dýně na trávu",
