@@ -141,7 +141,7 @@
     "čep květina"
    ],
    "ready": true,
-   "note": "parapet 110 nad podlahou; obloha se tónuje podle hodiny, počasí přes WEATHER; dvojité okno s mosaznými kličkami; muškát v levém rohu parapetu (díl muškát, v zimě schovaný, zůstane jen stromek) se zachvěje, když kočka skočí na parapet; kočka sedá uprostřed parapetu mezi muškátem a závěsem"
+   "note": "parapet 110 nad podlahou; obloha se tónuje podle hodiny, počasí přes WEATHER; dvojité okno s mosaznými kličkami; muškát v levém rohu parapetu (díl muškát, v zimě schovaný a parapet zůstane prázdný; vánoční stromek stojí od 2. 10. 2026 v chodbě) se zachvěje, když kočka skočí na parapet; kočka sedá uprostřed parapetu mezi muškátem a závěsem"
   },
   "P02": {
    "name": "Záclona",
@@ -2754,10 +2754,11 @@
     "slot botník",
     "slot věšák",
     "slot zrcadlo",
-    "slot lampička"
+    "slot lampička",
+    "slot ozdoba"
    ],
    "ready": true,
-   "note": "schody vedou z chodby na podestu v patře; vstupní dveře jsou jen v obýváku; olejový sokl do výšky, dlažba"
+   "note": "schody vedou z chodby na podestu v patře; vstupní dveře jsou jen v obýváku; olejový sokl do výšky, dlažba; v zimě vánoční stromek pod zrcadlem (slot ozdoba, od 2. 10. 2026)"
   },
   "ROOM-podesta": {
    "name": "Chodba v patře",
@@ -2929,7 +2930,7 @@
     "stěna",
     "podlaha",
     "lišta",
-    "průchod levý",
+    "dvířka levá",
     "byliny",
     "štít"
    ],
@@ -3126,8 +3127,10 @@
     "stav: okna",
     "střecha",
     "okap",
+    "lávka",
     "štít půdy",
-    "stav: sníh"
+    "stav: sníh",
+    "dvířka"
    ],
    "data": [
     "slot komín",
@@ -3263,12 +3266,12 @@
    "note": "podzimní ozdoba z kalendáře; kočka ji očichá a obejde"
   },
   "P83": {
-   "name": "Stromek na parapet",
+   "name": "Vánoční stromek",
    "w": 180,
    "h": 230,
-   "room": "obyvak",
-   "slot": "okno",
-   "level": "wall",
+   "room": "chodba",
+   "slot": "ozdoba",
+   "level": "floor",
    "height": 0,
    "hide": "",
    "fixed": false,
@@ -3290,8 +3293,7 @@
     "dotyk jehličí"
    ],
    "ready": true,
-   "note": "zimní ozdoba z kalendáře; stojí na parapetu, kočka po ozdobách sahá; jehličí, korálkový řetěz, baňky s čepičkou, slaměná hvězda",
-   "on": "P01"
+   "note": "zimní ozdoba z kalendáře; stojí v chodbě pod zrcadlem mezi věšákem a schody (do 2. 10. 2026 na parapetu v obýváku), kočka ho obejde a po ozdobách sahá; jehličí, korálkový řetěz, baňky s čepičkou, slaměná hvězda"
   },
   "P87": {
    "name": "Zarámovaná stránka",
