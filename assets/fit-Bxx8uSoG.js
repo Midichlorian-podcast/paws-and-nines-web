@@ -1,0 +1,1 @@
+import{e as c,_ as f}from"./index-Tz7ARHf7.js";function p(e,n=1){for(const t of e)if(t&&(t.scrollHeight>t.clientHeight+n||t.scrollWidth>t.clientWidth+1))return!0;return!1}const l=(e,n,t)=>t&&e<n?e+1:e;function a(e,n,t=null){const[s,r]=c({key:t,step:0}),o=s.key===t?s.step:0;return f(()=>{const i=l(o,n,e());(i!==o||s.key!==t)&&r({key:t,step:i})},[t,o]),o}export{p as o,a as u};

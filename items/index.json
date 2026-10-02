@@ -2779,7 +2779,15 @@
     "lišta",
     "průchod levý",
     "průchod pravý",
-    "lampa"
+    "lampa",
+    "běhoun",
+    "radiátor",
+    "polička",
+    "břečťan",
+    "knihy",
+    "obrázek",
+    "vypínač",
+    "zásuvka"
    ],
    "data": [
     "slot žebřík",
@@ -2787,7 +2795,7 @@
     "slot schodiště"
    ],
    "ready": true,
-   "note": "schody z chodby ústí vzadu vpravo nad horním koncem ramene, žebřík vlevo vede poklopem na půdu; vlevo ložnice, vpravo dveře na terasu"
+   "note": "schody z chodby ústí vzadu vpravo nad horním koncem ramene, žebřík vlevo vede poklopem na půdu; vlevo ložnice, vpravo dveře na terasu; olejový sokl jako v chodbě, tapeta s kosočtverečky, prkenná podlaha, běhoun, polička s břečťanem a knihami, lisovaná květina v rámečku (od 2. 10. 2026)"
   },
   "ROOM-pracovna": {
    "name": "Pracovna",
