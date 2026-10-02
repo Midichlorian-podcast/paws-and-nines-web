@@ -111,7 +111,8 @@
   "P92"
  ],
  "weather": [
-  "WEATHER-obloha"
+  "WEATHER-obloha",
+  "WEATHER-krajina"
  ],
  "pieces": {
   "P01": {
@@ -2566,7 +2567,7 @@
   "P77": {
    "name": "Hřeben střechy",
    "w": 1000,
-   "h": 50,
+   "h": 504,
    "room": "strecha",
    "slot": "hřeben",
    "level": "floor",
@@ -2585,7 +2586,7 @@
     "pata"
    ],
    "ready": true,
-   "note": "zakázaný uzel: kočka se podívá a netroufne si"
+   "note": "zakázaný uzel: kočka dojde k patě horní střechy, podívá se na hřeben a netroufne si"
   },
   "P78": {
    "name": "Deka na střeše",
@@ -2615,7 +2616,7 @@
   "P79": {
    "name": "Korouhvička",
    "w": 100,
-   "h": 130,
+   "h": 100,
    "room": "strecha",
    "slot": "anténa",
    "level": "wall",
@@ -2931,8 +2932,8 @@
     "podlaha",
     "lišta",
     "dvířka levá",
-    "byliny",
-    "štít"
+    "štít pravý",
+    "byliny"
    ],
    "data": [
     "slot krabice",
@@ -2944,8 +2945,7 @@
     "slot koberec",
     "slot pavučina",
     "slot poklop",
-    "slot koník",
-    "pokoj"
+    "slot koník"
    ],
    "ready": true,
    "note": "poklopem P85 vzadu po žebříku z podesty; vlevo dvířky na střechu; houpací koník v rohu vpravo"
@@ -3104,11 +3104,6 @@
    "states": [
     "podzim v dálce",
     "sníh v dálce",
-    "sníh na domech",
-    "podzim",
-    "holý",
-    "květ",
-    "okna",
     "sníh"
    ],
    "front": [],
@@ -3118,13 +3113,6 @@
     "stav: podzim v dálce",
     "stav: sníh v dálce",
     "kostel",
-    "domy sousedů",
-    "stav: sníh na domech",
-    "koruny",
-    "stav: podzim",
-    "stav: holý",
-    "stav: květ",
-    "stav: okna",
     "střecha",
     "okap",
     "lávka",
@@ -3137,10 +3125,13 @@
     "slot hřeben",
     "slot anténa",
     "slot místo u komína",
+    "venku",
+    "venku 2",
+    "venku 3",
     "pokoj"
    ],
    "ready": true,
-   "note": "dvířky ze štítu půdy vpravo; hřeben zakázaný uzel; korouhvička stojí na hřebeni; vlevo střecha pokračuje přes koupelnu až na konec domu"
+   "note": "dvířky z vikýře půdy vpravo; hřeben zakázaný uzel nahoře; korouhvička stojí na hřebeni; vlevo střecha pokračuje přes koupelnu až na konec domu"
   },
   "WEATHER-obloha": {
    "name": "Obloha a počasí",
@@ -3171,6 +3162,7 @@
     "stav: úsvit",
     "stav: soumrak",
     "stav: noc",
+    "měsíc",
     "stav: déšť",
     "stav: bouřka",
     "stav: blesk",
@@ -3181,6 +3173,42 @@
    "data": [],
    "ready": true,
    "note": "obloha okna a venku; fáze dne a počasí jsou stavy, kód je prolíná a hýbe s nimi (mraky, kapky, vločky, blesk)"
+  },
+  "WEATHER-krajina": {
+   "name": "Krajina za celým domem",
+   "w": 6800,
+   "h": 470,
+   "room": "",
+   "slot": "",
+   "level": "none",
+   "height": 0,
+   "hide": "",
+   "fixed": false,
+   "states": [
+    "podzim v dálce",
+    "sníh v dálce",
+    "sníh na domech",
+    "podzim",
+    "holý",
+    "květ",
+    "okna"
+   ],
+   "front": [],
+   "parts": [
+    "kopce",
+    "stav: podzim v dálce",
+    "stav: sníh v dálce",
+    "domy sousedů",
+    "stav: sníh na domech",
+    "koruny",
+    "stav: podzim",
+    "stav: holý",
+    "stav: květ",
+    "stav: okna"
+   ],
+   "data": [],
+   "ready": true,
+   "note": "krajina za celým domem pro přehled všech pater najednou (src/world/overview.ts); kreslená v jednotkách domu od LAND_X, LAND_Y"
   },
   "P80": {
    "name": "Věnec na dveře",
