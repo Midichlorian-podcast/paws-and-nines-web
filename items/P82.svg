@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 96" width="110" height="96">
-<g id="stín"><ellipse cx="55" cy="90" rx="34" ry="6" fill="#2F2E3F" stroke="none" opacity="0.16"/></g>
-<g id="dýně"><ellipse cx="55" cy="54" rx="41" ry="34" fill="#E8A05C" stroke="#2F2E3F" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="41" cy="54" rx="16" ry="32" fill="#F2B978" stroke="none" opacity="0.8"/><ellipse cx="70" cy="54" rx="15" ry="31" fill="#D98C4A" stroke="none" opacity="0.6"/></g>
-<g id="žebra"><path d="M 55 22 Q 45 54 55 86 M 55 22 Q 66 54 55 86" fill="none" stroke="#C97A3C" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/></g>
-<g id="stopka"><path d="M 51 22 Q 54 10 65 9" fill="none" stroke="#5C8C4E" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/><path d="M 51 22 Q 54 10 65 9" fill="none" stroke="#2F2E3F" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/></g>
-<g id="list"><path d="M 65 10 Q 80 2 88 14 Q 74 20 65 10 Z" fill="#7FB06F" stroke="#2F2E3F" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/></g>
-<g id="stav: sníh" data-state="hidden"><path d="M 22 36 Q 55 22 88 36 Q 70 44 55 41 Q 40 44 22 36 Z" fill="#FFFFFF" stroke="#2F2E3F" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/></g>
+<g id="stín" data-box="20 83 70 14"><ellipse cx="55" cy="90" rx="34" ry="6" fill="#2F2E3F" stroke="none" opacity="0.16"/></g>
+<g id="dýně" data-box="11.5 17.5 87 73"><ellipse cx="55" cy="54" rx="41" ry="34" fill="#E8A05C" stroke="#2F2E3F" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="41" cy="54" rx="16" ry="32" fill="#F2B978" stroke="none" opacity="0.8"/><ellipse cx="70" cy="54" rx="15" ry="31" fill="#D98C4A" stroke="none" opacity="0.6"/></g>
+<g id="žebra" data-box="42.9 19.89 25.2 68.21"><path d="M 55 22 Q 45 54 55 86 M 55 22 Q 66 54 55 86" fill="none" stroke="#C97A3C" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/></g>
+<g id="stopka" data-box="47 5 22 21"><path d="M 51 22 Q 54 10 65 9" fill="none" stroke="#5C8C4E" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/><path d="M 51 22 Q 54 10 65 9" fill="none" stroke="#2F2E3F" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/></g>
+<g id="list" data-box="63.09 0.1 26.81 21.8"><path d="M 65 10 Q 80 2 88 14 Q 74 20 65 10 Z" fill="#7FB06F" stroke="#2F2E3F" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/></g>
+<g id="stav: sníh" data-state="hidden" data-box="20 20 70 26"><path d="M 22 36 Q 55 22 88 36 Q 70 44 55 41 Q 40 44 22 36 Z" fill="#FFFFFF" stroke="#2F2E3F" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/></g>
 <rect id="@pata" x="22" y="78" width="66" height="16" fill="#FFB13D" opacity="0.2"/>
 <rect id="@dotyk dýně" x="18" y="22" width="74" height="66" fill="#FF3D9A" opacity="0.2"/>
 </svg>

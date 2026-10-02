@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 46" width="96" height="46">
-<g id="miska"><rect x="6" y="18" width="84" height="16" fill="#C9DAF0" stroke="none"/><ellipse cx="48" cy="34" rx="42" ry="9" fill="#B7CBE6" stroke="#2F2E3F" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><rect x="6" y="18" width="84" height="16" fill="#C9DAF0" stroke="none"/><path d="M 6 18 L 6 34 M 90 18 L 90 34" fill="none" stroke="#2F2E3F" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="48" cy="18" rx="42" ry="9" fill="#C9DAF0" stroke="#2F2E3F" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/></g>
-<g id="voda"><ellipse cx="48" cy="18" rx="34" ry="6" fill="#9FC0E6" stroke="none"/><ellipse cx="38" cy="16" rx="10" ry="2.5" fill="#FFFFFF" stroke="none" opacity="0.55"/></g>
-<g id="stav: louže" data-state="hidden"><ellipse cx="60" cy="42" rx="22" ry="4" fill="#9FC0E6" stroke="none" opacity="0.5"/></g>
+<g id="miska" data-box="3.5 6.5 89 39"><rect x="6" y="18" width="84" height="16" fill="#C9DAF0" stroke="none"/><ellipse cx="48" cy="34" rx="42" ry="9" fill="#B7CBE6" stroke="#2F2E3F" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><rect x="6" y="18" width="84" height="16" fill="#C9DAF0" stroke="none"/><path d="M 6 18 L 6 34 M 90 18 L 90 34" fill="none" stroke="#2F2E3F" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="48" cy="18" rx="42" ry="9" fill="#C9DAF0" stroke="#2F2E3F" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/></g>
+<g id="voda" data-box="13 11 70 14"><ellipse cx="48" cy="18" rx="34" ry="6" fill="#9FC0E6" stroke="none"/><ellipse cx="38" cy="16" rx="10" ry="2.5" fill="#FFFFFF" stroke="none" opacity="0.55"/></g>
+<g id="stav: louže" data-state="hidden" data-box="37 37 46 10"><ellipse cx="60" cy="42" rx="22" ry="4" fill="#9FC0E6" stroke="none" opacity="0.5"/></g>
 <rect id="@pata" x="6" y="28" width="84" height="14" fill="#FFB13D" opacity="0.2"/>
 <rect id="@dotyk" x="12" y="2" width="72" height="20" fill="#FF3D9A" opacity="0.2"/>
 </svg>

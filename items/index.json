@@ -133,7 +133,7 @@
     "stav: kapky",
     "rám",
     "parapet",
-    "květina"
+    "muškát"
    ],
    "data": [
     "plošina",
@@ -141,7 +141,7 @@
     "čep květina"
    ],
    "ready": true,
-   "note": "parapet 110 nad podlahou; obloha se tónuje podle hodiny, počasí přes WEATHER; dvojité okno s mosaznými kličkami; muškát v levém rohu parapetu se zachvěje, když kočka skočí na parapet; kočka sedá uprostřed parapetu mezi muškátem a závěsem"
+   "note": "parapet 110 nad podlahou; obloha se tónuje podle hodiny, počasí přes WEATHER; dvojité okno s mosaznými kličkami; muškát v levém rohu parapetu (díl muškát, v zimě schovaný, zůstane jen stromek) se zachvěje, když kočka skočí na parapet; kočka sedá uprostřed parapetu mezi muškátem a závěsem"
   },
   "P02": {
    "name": "Záclona",
@@ -2870,7 +2870,14 @@
    "height": 0,
    "hide": "",
    "fixed": false,
-   "states": [],
+   "states": [
+    "sníh v dálce",
+    "podzim",
+    "holý",
+    "květ",
+    "okna",
+    "sníh"
+   ],
    "front": [],
    "parts": [
     "stěna",
@@ -2880,7 +2887,17 @@
     "zeď levá",
     "průchod pravý",
     "dlažba",
-    "světlo"
+    "světlo",
+    "obloha venku",
+    "kopce",
+    "stav: sníh v dálce",
+    "koruny",
+    "stav: podzim",
+    "stav: holý",
+    "stav: květ",
+    "stav: okna",
+    "střecha obýváku",
+    "stav: sníh"
    ],
    "data": [
     "slot vana",
@@ -2890,7 +2907,8 @@
     "slot papír",
     "slot rohož",
     "slot police",
-    "slot okno"
+    "slot okno",
+    "pokoj"
    ],
    "ready": true,
    "note": "z ložnice vpravo; konec domu vlevo; ú. 15 + dospělá kočka"
@@ -2912,8 +2930,8 @@
     "podlaha",
     "lišta",
     "průchod levý",
-    "zeď pravá",
-    "byliny"
+    "byliny",
+    "štít"
    ],
    "data": [
     "slot krabice",
@@ -2925,7 +2943,8 @@
     "slot koberec",
     "slot pavučina",
     "slot poklop",
-    "slot koník"
+    "slot koník",
+    "pokoj"
    ],
    "ready": true,
    "note": "poklopem P85 vzadu po žebříku z podesty; vlevo dvířky na střechu; houpací koník v rohu vpravo"
@@ -2946,7 +2965,7 @@
     "sníh na domech",
     "podzim",
     "holý",
-    "jaro",
+    "květ",
     "okna",
     "sníh"
    ],
@@ -2962,7 +2981,7 @@
     "koruny",
     "stav: podzim",
     "stav: holý",
-    "stav: jaro",
+    "stav: květ",
     "stav: okna",
     "podlaha",
     "zábradlí vzadu",
@@ -3087,7 +3106,7 @@
     "sníh na domech",
     "podzim",
     "holý",
-    "jaro",
+    "květ",
     "okna",
     "sníh"
    ],
@@ -3103,7 +3122,7 @@
     "koruny",
     "stav: podzim",
     "stav: holý",
-    "stav: jaro",
+    "stav: květ",
     "stav: okna",
     "střecha",
     "okap",
@@ -3114,10 +3133,11 @@
     "slot komín",
     "slot hřeben",
     "slot anténa",
-    "slot místo u komína"
+    "slot místo u komína",
+    "pokoj"
    ],
    "ready": true,
-   "note": "dvířky ze štítu půdy vpravo; hřeben zakázaný uzel; korouhvička stojí na hřebeni"
+   "note": "dvířky ze štítu půdy vpravo; hřeben zakázaný uzel; korouhvička stojí na hřebeni; vlevo střecha pokračuje přes koupelnu až na konec domu"
   },
   "WEATHER-obloha": {
    "name": "Obloha a počasí",
